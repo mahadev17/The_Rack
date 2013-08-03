@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alert">Alert</string>
+    <string name="network_connection_alert">Please Check Network.</string>
+    <string name="sign_in_alert">Please Check Username and  Password</string>
+    
+    <string name="item_title_alert">Enter item\'s Title.</string>
+    <string name="item_o_price_alert">Enter item\'s Original Price.</string>
+    <string name="item_l_price_alert">Enter item\'s Listing Price.</string>
+    <string name="item_desc_alert">Enter item\'s Description.</string>
+    <string name="item_image_alert">Take Item\'s Image </string>
+    <string name="item_add_alert">Add Item Succefully </string>
+    <string name="item_edit_alert">Add Item Update Succefully </string>
+    <string name="item_add_failed_alert">Add Item Failed </string>
+    <string name="data_available_alert">Data not available.</string>
+    
+    <string name="email_alert">Email can\'t be blank.</string>
+    <string name="city_alert">City Can\'t be blank.</string>
+    <string name="profile_image_alert">Set Profile Image</string>
+    <string name="email_validation_alert">Email is not valid.</string>
+    <string name="username_alert">Username can\'t be blank.</string>
+    <string name="password_alert">Password can\'t be blank.</string>
+    
+    <string name="old_password_alert">Enter Old Password.</string>
+    <string name="new_password_alert">Enter New Password.</string>
+    <string name="con_password_alert">Enter Confirm Password.</string>
+    <string name="match_password_alert">New and confirm password are not match.</string>
+    
+    <string name="logout_alert">Are you sure to logout.</string>
+    
+    
+    <string name="username_alert">Username already exist.</string>
+    <string name="acc_alert">Error On Create Account.</string>
+    <string name="comment_alert">Error On Post Comment.</string>
+    
+    <string name="failed_alert">Failed.</string>
+    <string name="setting_save_alert">Your Setting Saved Succesfully.</string>
+    <string name="comment_txt">Please Enter Comment.</string>
+    
+</resources>

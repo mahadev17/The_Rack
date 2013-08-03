@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/facebook_mail_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="155dp" 
+    android:layout_gravity="center"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/corner_style"
+    android:layout_marginRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/txtSharingHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#8d0010"
+            android:text="Do you want to login with Facebook?" 
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/FacebookShareButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:onClick="share"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:text="Yes"
+            android:background="@drawable/pop_btn"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/FacebookShareNotButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:onClick="doNotShare"
+            android:padding="5dp"
+            android:text="No"
+            android:textSize="16dp"
+            android:background="@drawable/pop_btn"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

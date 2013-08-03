@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/topbar"
+            android:layout_margin="15dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_heading1_profile_info"
+                        android:textSize="18dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/white"
+                        />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_heading2_profile_info"
+                        android:textSize="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/white"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_heading3_profile_info"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/white"
+                        />
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_upper_text_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Shoe Size"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:id="@+id/txtShoeSize"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_upper"
+                            android:hint="Optional"
+                            android:paddingLeft="8dp"
+                            android:textSize="16dp"
+                            android:gravity="center_vertical"
+                            android:drawableRight="@drawable/arrow_icon_down"
+                            android:paddingRight="10dp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_lower_text_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Dress Size"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txtDressSize"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_lower"
+                            android:hint="Optional"
+                            android:textSize="16dp"
+                            android:drawableRight="@drawable/arrow_icon_down"
+                            android:paddingRight="10dp"
+                            android:gravity="center_vertical"
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="8dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_upper_text_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="My City"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/edtMyCity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/list_upper"
+                            android:hint="Optional"
+                            android:paddingLeft="8dp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/black" >
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_middle_text_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="State"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/txtState"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_middle"
+                            android:gravity="center_vertical"
+                            android:hint="Optional"
+                            android:textSize="16dp"
+                            android:paddingLeft="8dp"
+                            android:singleLine="true"
+                            android:drawableRight="@drawable/arrow_icon_down"
+                            android:paddingRight="10dp"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_lower_text_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Website"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/edtWebsite"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/list_lower"
+                            android:hint="Optional"
+                            android:paddingLeft="8dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/footer" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

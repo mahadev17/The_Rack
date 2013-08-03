@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    </LinearLayout>
+   
+    <ListView
+        android:id="@+id/listviewMsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topbar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:fastScrollEnabled="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:smoothScrollbar="true"
+        android:divider="@android:color/transparent"
+        android:layout_above="@+id/footerLayout"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="@android:color/transparent"/>
+    
+    <LinearLayout
+        android:id="@+id/footerLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/footer"
+	    android:layout_alignParentBottom="true">
+    </LinearLayout>
+</RelativeLayout>    
+</LinearLayout>

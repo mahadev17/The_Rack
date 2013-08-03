@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/topbar"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@drawable/corner_style">
+     <TextView
+         android:id="@+id/txtItemTitleItemDetails"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Jeans"
+         android:textStyle="bold"
+         android:layout_gravity="center_horizontal"
+         android:textColor="#a1a1a1"
+         android:textSize="18dp"/>
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="7dp"
+         android:layout_marginRight="7dp"
+         >
+
+         <TextView
+             android:id="@+id/txtItemPriceItemDetails"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:text="Price : $205"
+             android:gravity="center_horizontal"
+             android:textColor="#6b0111"
+             android:layout_weight="1"
+             android:textSize="14dp"/>
+         
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="#a1a1a1"/>
+         
+         <TextView
+             android:id="@+id/txtItemSizeItemDetails"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:text="Size : S M"
+             android:gravity="center_horizontal"
+             android:layout_marginLeft="10dp"
+             android:textColor="#6b0111"
+             android:textSize="14dp" />
+
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="#a1a1a1"/>
+         <TextView
+             android:id="@+id/txtItemTypeItemDetails"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:singleLine="true"
+             android:ellipsize="end"
+             android:text="Classy Outfit"
+             android:gravity="center_horizontal"
+             android:layout_marginLeft="10dp"
+             android:textColor="#6b0111"
+             android:textSize="14dp" />
+         
+     </LinearLayout>
+     
+     <TextView
+         android:id="@+id/txtItemDetailsItemDetails"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:text="This is good jeans.."
+         android:textColor="#a1a1a1"
+         android:textSize="14dp"/>
+        
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#a1a1a1"/>
+     
+     <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPriceItemDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textColor="#6b0111"
+                    android:text="Like"
+                    android:background="@drawable/blank_btn" />
+
+                <Button
+                    android:id="@+id/btnCommentItemDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:textColor="#6b0111"
+                    android:text="Comment"
+                    android:background="@drawable/blank_btn" />
+
+                <Button
+                    android:id="@+id/btnShareItemDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:textColor="#6b0111"
+                    android:text="Share"
+                    android:background="@drawable/blank_btn" />
+            </LinearLayout>
+            
+         <TextView
+             android:id="@+id/txtCommentCountItemDetails"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="5dp"
+             android:text="Comments  "
+             android:textColor="#6b0111"
+             android:textSize="14dp" />
+     
+    
+	</LinearLayout>
+	
+    <ListView
+        android:id="@+id/listviewCommentsItemDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/mainLayout"
+        android:layout_above="@+id/footerLayout"
+        android:dividerHeight="10dp"
+        android:fastScrollEnabled="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:smoothScrollbar="true"
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    
+	<RelativeLayout
+	    android:id="@+id/footerLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/footer_bg">
+    <TextView
+        android:id="@+id/txtFooterItemPriceItemDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$300"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" 
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btnBuyNowItemDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buy_now_btn"
+        />
+	    
+	</RelativeLayout>
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+[
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Denim" 
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Pants/Shorts"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Dress/Skirts"
+    },
+        {
+        "sizetype":"OS",
+        "title":"Accessories"
+    },
+        {
+        "sizetype":"OS",
+        "title":"Handbags"
+    },
+        {
+        "sizetype":"OS",
+        "title":"Jewellery"
+    },
+        {
+        "sizetype":"ShoesPropertyList",
+        "title":"Boots"
+    },
+        {
+        "sizetype":"ShoesPropertyList",
+        "title":"Shoes"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Summer wear"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Sweaters"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Tops"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Outerwear"
+    },
+        {
+        "sizetype":"OS",
+        "title":"Clutches & Wallets"
+    },
+        {
+        "sizetype":"DressPropertyList",
+        "title":"Jackets & Blazers"
+    },
+        {
+        "sizetype":"OS",
+        "title":"Other"
+    }
+]

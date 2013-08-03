@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    </LinearLayout>
+   
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/topbar"
+        android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="horizontal" 
+	                    android:layout_marginTop="10dp"
+	                    android:background="@drawable/txt_bg_rec">
+                    
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="Your"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:layout_gravity="center_vertical"
+					    />
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="Guide"
+					    android:textColor="#6b0111"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:layout_gravity="center_vertical"
+					    />
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="to The Rack"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:layout_gravity="center_vertical"
+					    />
+					</LinearLayout>
+					<TextView
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="The Rack Etiquette"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					<LinearLayout
+					    android:id="@+id/linearLayoutInviteFriend"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="horizontal"
+	                    android:background="@drawable/txt_bg_rec">
+                    
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="Invite friends,"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:layout_gravity="center_vertical"
+					    />
+					<TextView
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="Earn Cash!"
+					    android:textColor="#6b0111"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:layout_gravity="center_vertical"
+					    />
+					</LinearLayout>
+					
+					<TextView
+					    android:id="@+id/txtMyWardrobe"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="5dp"
+					    android:text="My Wardrobe"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					<TextView
+					    android:id="@+id/txtMyProfile"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="Edit Profile"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					<TextView
+					    android:id="@+id/txtNotification"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="My Notification"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					<TextView
+					    android:id="@+id/txtMyLikes"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="My Likes"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					
+					<TextView
+					    android:id="@+id/txtMyPurchase"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="5dp"
+					    android:text="My Purchases"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					<TextView
+					    android:id="@+id/txtMySell"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="My Sales"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />
+					
+					<TextView
+					    android:id="@+id/txtLogout"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="Logout"
+					    android:textColor="#000000"
+					    android:textSize="18dp"
+        				android:layout_marginBottom="55dp"
+					    android:paddingLeft="5dp"
+					    android:gravity="center_vertical"
+					    android:background="@drawable/txt_bg_rec"
+					    />	
+                    
+                </LinearLayout>
+            </ScrollView>
+          </LinearLayout>  
+        
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/footer"
+	    android:layout_alignParentBottom="true">
+    </LinearLayout>
+</RelativeLayout>    
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtHeaderDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choose Image From"
+        android:layout_marginTop="25dp"
+        android:textColor="#8d0010"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutTakeImgAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHeaderDA"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSDImgDA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_btn"
+            android:text="Gallery"
+            android:textSize="16dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnCamImgDA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_btn"
+            android:text="Camera"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnCancelImgDA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_btn"
+            android:layout_marginTop="10dp"
+            android:text="Cancel"
+            android:textSize="16dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
